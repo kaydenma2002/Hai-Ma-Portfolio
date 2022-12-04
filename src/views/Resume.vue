@@ -1,6 +1,6 @@
 <template>
-  <v-layout row justify-center align-center wrap class="mt-4 pt-2">
-    <v-flex xs12 sm12 md4 lg4 xl4 class="mt-4 pt-4">
+  <v-layout row justify-center  wrap class="mt-4 pt-2">
+    <v-flex xs12 sm12 md4 lg4 xl4 class=" pt-4">
       <h2 class="mb-4 pl-4 pt-2">Education</h2>
       <v-card-text class="py-0">
         <v-timeline align-top dense>
@@ -121,8 +121,50 @@
         </v-timeline>
       </v-card-text>
     </v-flex>
-    
+     <v-layout row   class="mt-4 pt-2">
+      <v-flex xs12 sm12 md4 lg4 xl4 class="mx-2 pt-4">
+        <h2>
+          <span>Front-End </span>
+
+          <span class="green--text">Skills</span>
+        </h2>
+        <br>
+        <strong>HTML/CSS/Bootstrap 5/SASS/Tailwind CSS</strong>
+        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+        <strong>Javascript/Vue</strong>
+        <v-progress-linear v-model="buffer2" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+        <strong>AJAX/Json/Axios</strong>
+        <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+      </v-flex>
+      <v-flex xs12 sm12 md4 lg4 xl4 class="mx-2 pt-4">
+        <h2>
+          <span>Back-End </span>
+          <span class="green--text">Skills</span>
+        </h2>
+        <br>
+        <strong>PHP/Laravel/Lumen</strong>
+        <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+        <strong>Python/Django/FastApi</strong>
+        <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+        <strong>NodeJs</strong>
+        <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+      </v-flex>
+      <v-flex xs12 sm12 md4 lg4 xl4 class="mx-2 pt-4">
+        <h2>
+          <span>Tool </span>
+          <span class="green--text">Skills</span>
+        </h2>
+        <br>
+        <strong>Ubuntu/Linux</strong>
+        <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+        <strong>Git Lab/Git hub</strong>
+        <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+        <strong>Postman</strong>
+        <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
+      </v-flex>
+    </v-layout>
   </v-layout>
+  
 </template>
 
 <script>
@@ -180,9 +222,9 @@ export default {
         this.buffer1 = 90
         this.buffer2 = 85
         this.buffer3 = 80
-        this.buffer4 = 80
-        this.buffer5 = 90
-        this.buffer6 = 70
+        this.buffer4 = 90
+        this.buffer5 = 80
+        this.buffer6 = 80
       }, 800)
     }
   }

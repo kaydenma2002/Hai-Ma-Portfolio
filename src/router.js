@@ -21,6 +21,12 @@ export default new Router({
         import(/* webpackChunkName: "about" */ './views/Contact.vue')
   },
   {
+    path: '/projects',
+    name: 'projects',
+    component: () =>
+        import(/* webpackChunkName: "about" */ './views/Projects.vue')
+  },
+  {
     path: '/resume',
     name: 'resume',
     component: () =>

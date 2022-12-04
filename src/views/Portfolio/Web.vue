@@ -146,58 +146,6 @@ export default {
             tech4: 'JavaScript'
           },
           poster: 'https://i.imgur.com/rXHBs36.png'
-        },
-        {
-          dialog: false,
-          title: 'IBM Coding Challenge - Films Location',
-          git: 'https://github.com/EldinZaimovic/Film-Location-List',
-          demo: 'https://film-location-ibm-cc.netlify.com/',
-          tech: {
-            tech1: 'VUE',
-            tech2: 'Lodash',
-            tech3: 'HTML',
-            tech4: 'JavaScript'
-          },
-          poster: 'https://i.imgur.com/kCN1CFH.png'
-        },
-        {
-          dialog: false,
-          title: 'Stock Trader',
-          git: 'https://github.com/EldinZaimovic/Stock-Trader',
-          demo: 'https://stock-trader-eldin.netlify.com/',
-          tech: {
-            tech1: 'VUE',
-            tech2: 'Vuex',
-            tech3: 'Firebase',
-            tech4: 'JavaScript'
-          },
-          poster: 'https://i.imgur.com/wK5dqP7.png'
-        },
-        {
-          dialog: false,
-          title: 'Riders Share Newsleter',
-          git: '',
-          demo: 'https://imgur.com/zTMJhGk',
-          tech: {
-            tech1: 'HTML',
-            tech2: 'CSS',
-            tech3: 'MailChimp',
-            tech4: 'JavaScript'
-          },
-          poster: 'https://i.imgur.com/zTMJhGk.jpg'
-        },
-        {
-          dialog: false,
-          title: 'My Old Web Portfolio',
-          git: 'https://github.com/EldinZaimovic/EldinZaimovic.github.io',
-          demo: 'https://eldinzaimovic.github.io/index.html',
-          tech: {
-            tech1: 'HTML',
-            tech2: 'CSS',
-            tech3: 'JavaScript',
-            tech4: 'jQuery'
-          },
-          poster: 'https://i.imgur.com/AW7CXD5.jpg'
         }
       ]
     }

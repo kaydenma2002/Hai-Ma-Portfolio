@@ -12,7 +12,7 @@
         :key="project.title"
       >
         <template v-slot:activator="{ on }">
-          <v-flex xs12 sm6 md4 lg4 xl4 v-on="on">
+          <v-flex xs12 sm6 md6 lg6 xl6 v-on="on">
             <v-card hover flat color="transparent">
               <v-img
                 :src="project.poster"
@@ -120,8 +120,21 @@ export default {
         },
         {
           dialog: false,
+          title: "Nio Pay",
+          git: "https://github.com/EldinZaimovic/Hai-Tam-Ma-Portfolio",
+          demo: "https://vuejs.kaydenma.com/",
+          tech: {
+            tech1: "VUE",
+            tech2: "Laravel",
+            tech3: "HTML",
+            tech4: "JavaScript",
+          },
+          poster: "https://i.imgur.com/ss9FiY1.png",
+        },
+        {
+          dialog: false,
           title: "This Site",
-          git: "https://github.com/EldinZaimovic/Eldin-Space-Vue",
+          git: "https://github.com/EldinZaimovic/Hai-Tam-Ma-Portfolio",
           demo: "https://vuejs.kaydenma.com/",
           tech: {
             tech1: "VUE",

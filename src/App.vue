@@ -26,20 +26,20 @@ export default {
   name: 'App',
   metaInfo: {
     title: 'Home',
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Hai Tam Ma",
     meta: [
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'description', content: "Eldin Zaimovic's Portfolio" },
+      { name: 'description', content: "Hai Tam Ma Portfolio" },
       { charset: 'utf-8' },
-      { property: 'og:title', content: "Eldin' Space" },
-      { property: 'og:site_name', content: "Eldin' Space" },
+      { property: 'og:title', content: "Hai Tam Ma" },
+      { property: 'og:site_name', content: "Hai Tam Ma" },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://eldin.space' },
+      { property: 'og:url', content: 'https://vuejs.kaydenma.com' },
       {
         property: 'og:image',
-        content: 'https://i.imgur.com/Dcz2PGx.jpg'
+        content: 'https://i.imgur.com/7DML0OH.jpg'
       },
-      { property: 'og:description', content: "Eldin Zaimovic's Portfolio" }
+      { property: 'og:description', content: "Hai Tam Ma Portfolio" }
     ]
   },
   components: {
@@ -47,7 +47,7 @@ export default {
     TheFooter
   },
   data () {
-    return { goDark: false }
+    return { goDark: true }
   },
   methods: {
     updateTheme (updatedTheme) {

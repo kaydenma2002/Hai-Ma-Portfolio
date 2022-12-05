@@ -34,7 +34,7 @@
                 Hello! I’m Hai Tam Ma. I'm a Full-Stack Web Developer who is
                 passionate about
                 <span class="green--text font-weight-bold">VUE</span> and
-                <span class="purple--text font-weight-bold">PHP</span>.
+                <span class="red--text font-weight-bold">Laravel</span>.
                 Throughout my career, I have contributed to impacting business
                 outcomes through effective organization, prioritization, and
                 execution of key projects. My skills and qualifications bring
@@ -91,20 +91,20 @@ import VueCompareImage from "vue-compare-image";
 export default {
   metaInfo: {
     title: "Home",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Hai Tam Ma",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "description", content: "Eldin Zaimovic's Portfolio" },
+      { name: "description", content: "Hai Tam Ma Portfolio" },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Hai Tam Ma" },
+      { property: "og:site_name", content: "Hai Tam Ma" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://vuejs.kaydenma.com" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg",
       },
-      { property: "og:description", content: "Eldin Zaimovic's Portfolio" },
+      { property: "og:description", content: "Hai Tam Ma Portfolio" },
     ],
   },
   components: {

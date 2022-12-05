@@ -12,19 +12,9 @@
             <v-list-tile-title>RESUME</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile active-class="green--text" to="/services">
+        <v-list-tile active-class="green--text" to="/projects">
           <v-list-tile-content>
-            <v-list-tile-title>SERVICES</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile active-class="green--text" to="/portfolio">
-          <v-list-tile-content>
-            <v-list-tile-title>PORTFOLIO</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile active-class="green--text" to="/blog">
-          <v-list-tile-content>
-            <v-list-tile-title>BLOG</v-list-tile-title>
+            <v-list-tile-title>PROJECTS</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
         <v-list-tile active-class="green--text" to="/contact">

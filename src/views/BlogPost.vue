@@ -40,10 +40,10 @@ export default {
           content: this.result.content
         },
         { charset: 'utf-8' },
-        { property: 'og:title', content: "Eldin' Space" },
-        { property: 'og:site_name', content: "Eldin' Space" },
+        { property: 'og:title', content: "Hai Tam Ma" },
+        { property: 'og:site_name', content: "Hai Tam Ma" },
         { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: 'https://eldin.space' },
+        { property: 'og:url', content: 'https://vuejs.kaydenma.com' },
         {
           property: 'og:image',
           content: 'https://i.imgur.com/Dcz2PGx.jpg'

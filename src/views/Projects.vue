@@ -17,7 +17,7 @@
               <v-img
                 :src="project.poster"
                 :alt="project.title"
-                height="230"
+                height="300"
                 lazy-src="https://cdn.dribbble.com/users/503653/screenshots/3143656/fluid-loader.gif"
               ></v-img>
               <v-card-title primary-title class="justify-center">{{
@@ -77,19 +77,19 @@
 export default {
   metaInfo: {
     title: "Web Portfolio",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Hai Tam Ma",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         name: "description",
         content:
-          "Eldin Zaimovic's Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive",
+          "Hai Tam Ma Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive",
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Hai Tam Ma" },
+      { property: "og:site_name", content: "Hai Tam Ma" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://vuejs.kaydenma.com" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg",
@@ -97,7 +97,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Eldin Zaimovic's Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive",
+          "Hai Tam Ma Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive",
       },
     ],
   },
@@ -107,25 +107,25 @@ export default {
       projects: [
         {
           dialog: false,
-          title: "Euphoric Voyage",
+          title: "Pay me",
           git: "https://github.com/EldinZaimovic/euphoric-voyage",
           demo: "https://www.euphoric-voyage.com/",
           tech: {
-            tech1: "Gatsby",
-            tech2: "JavaScript",
-            tech3: "SCSS",
-            tech4: "Markdown",
+            tech1: "HTML",
+            tech2: "CSS",
+            tech3: "Javascript",
+            tech4: "PHP",
           },
-          poster: "https://i.imgur.com/9Ww2bvm.png",
+          poster: "https://i.imgur.com/jXKx2B0.png",
         },
         {
           dialog: false,
           title: "This Site",
           git: "https://github.com/EldinZaimovic/Eldin-Space-Vue",
-          demo: "https://eldin.space/",
+          demo: "https://vuejs.kaydenma.com/",
           tech: {
             tech1: "VUE",
-            tech2: "Storyblok",
+            tech2: "Laravel",
             tech3: "HTML",
             tech4: "JavaScript",
           },
@@ -133,7 +133,7 @@ export default {
         },
         {
           dialog: false,
-          title: "Frontend Developer at Brandly.com",
+          title: "Patient dashboard by Laravel",
           git: "https://cdn.neow.in/news/images/uploaded/2018/11/1543476286_cybersecurity.jpg",
           demo: "https://www.brandly.com/",
           tech: {
@@ -142,47 +142,9 @@ export default {
             tech3: "HTML",
             tech4: "JavaScript",
           },
-          poster: "https://i.imgur.com/nVqtTAf.png",
+          poster: "https://i.imgur.com/izVFoK6.png",
         },
-        {
-          dialog: false,
-          title: "Digital Madness Test",
-          git: "https://github.com/EldinZaimovic/Digital-Madness-test",
-          demo: "https://digital-madness-test.netlify.com/",
-          tech: {
-            tech1: "VUE",
-            tech2: "CSS",
-            tech3: "HTML",
-            tech4: "JavaScript",
-          },
-          poster: "https://i.imgur.com/GOIIL06.png",
-        },
-        {
-          dialog: false,
-          title: "Snowball Coding Challenge",
-          git: "https://github.com/EldinZaimovic/SnowBall-Project",
-          demo: "https://snowball-test.netlify.com/",
-          tech: {
-            tech1: "VUE",
-            tech2: "GraphQL",
-            tech3: "Axios",
-            tech4: "JavaScript",
-          },
-          poster: "https://i.imgur.com/rXHBs36.png",
-        },
-        {
-          dialog: false,
-          title: "Snowball Coding Challenge",
-          git: "https://github.com/EldinZaimovic/SnowBall-Project",
-          demo: "https://snowball-test.netlify.com/",
-          tech: {
-            tech1: "VUE",
-            tech2: "GraphQL",
-            tech3: "Axios",
-            tech4: "JavaScript",
-          },
-          poster: "https://i.imgur.com/rXHBs36.png",
-        },
+
       ],
     };
   },

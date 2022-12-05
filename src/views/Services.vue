@@ -62,19 +62,19 @@
 export default {
   metaInfo: {
     title: 'Services',
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Hai Tam Ma",
     meta: [
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         name: 'description',
         content:
-          "Eldin Zaimovic's Services Web Development Video Editing Graphic Design Front-End Advetising"
+          "Hai Tam Ma Services Web Development Video Editing Graphic Design Front-End Advetising"
       },
       { charset: 'utf-8' },
-      { property: 'og:title', content: "Eldin' Space" },
-      { property: 'og:site_name', content: "Eldin' Space" },
+      { property: 'og:title', content: "Hai Tam Ma" },
+      { property: 'og:site_name', content: "Hai Tam Ma" },
       { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: 'https://eldin.space' },
+      { property: 'og:url', content: 'https://vuejs.kaydenma.com' },
       {
         property: 'og:image',
         content: 'https://i.imgur.com/Dcz2PGx.jpg'
@@ -82,7 +82,7 @@ export default {
       {
         property: 'og:description',
         content:
-          "Eldin Zaimovic's Services Web Development Video Editing Graphic Design Front-End Advetising"
+          "Hai Tam Ma Services Web Development Video Editing Graphic Design Front-End Advetising"
       }
     ]
   },

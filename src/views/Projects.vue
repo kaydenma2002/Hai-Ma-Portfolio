@@ -122,7 +122,7 @@ export default {
           dialog: false,
           title: "Nio Pay",
           git: "https://github.com/EldinZaimovic/Hai-Tam-Ma-Portfolio",
-          demo: "https://vuejs.kaydenma.com/",
+          demo: "http://niopay.io/",
           tech: {
             tech1: "VUE",
             tech2: "Laravel",
